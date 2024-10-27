@@ -1,0 +1,47 @@
+.NavBar{
+    width: 300px;
+    background-color: #FFFFFF;
+    height: 100%;
+    padding: 37px;
+
+    .navLink{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 12px 12px 12px 5px;
+        transition: 250ms;
+        cursor: pointer;
+        margin-bottom: 15px;
+
+        .left{
+            p{
+                margin: 0;
+            }
+
+            img{
+                margin-right: 10px;
+            }
+        }
+
+        
+        
+        .arrow{
+            margin-top: 2px;
+        }
+    }
+
+    .navLink.active{
+        background-color: #006AFF;
+
+        p{
+            color: white;
+        }
+    }
+
+    .navLink:hover{
+        margin-left: 4px;
+    }
+}
